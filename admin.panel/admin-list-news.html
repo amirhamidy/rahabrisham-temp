@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>داشبورد ادمین</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="assets/css/vendor.min.css" />
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/font/bootstrap-icons.css" />
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="assets/css/theme.min.css?v=1.0" />
+</head>
+
+<body>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main" class="bg-light">
+    <!-- Breadcrumb -->
+    <div class="navbar-dark bg-dark" style="
+          background-image: url(assets/svg/components/wave-pattern-light.svg);
+        ">
+      <div class="container content-space-1 content-space-b-lg-3">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="d-none d-lg-block">
+              <h1 class="h2 text-white">داشبورد</h1>
+            </div>
+
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb breadcrumb-light mb-0">
+                <li class="breadcrumb-item">حساب</li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  داشبورد ادمین
+                </li>
+              </ol>
+            </nav>
+            <!-- End Breadcrumb -->
+          </div>
+          <!-- End Col -->
+
+          <div class="col-auto">
+            <!-- Responsive Toggle Button -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+              data-bs-target="#sidebarNav" aria-controls="sidebarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-default">
+                <i class="bi-list"></i>
+              </span>
+              <span class="navbar-toggler-toggled">
+                <i class="bi-x"></i>
+              </span>
+            </button>
+            <!-- End Responsive Toggle Button -->
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Content Section -->
+    <div class="container content-space-1 content-space-t-lg-0 content-space-b-lg-2 mt-lg-n10">
+      <div class="row">
+        <div class="col-lg-3">
+          <!-- Navbar -->
+          <div class="navbar-expand-lg navbar-light">
+            <div id="sidebarNav" class="collapse navbar-collapse navbar-vertical">
+              <!-- Card -->
+              <div class="card flex-grow-1 mb-5">
+                <div class="card-body">
+                  <!-- Avatar -->
+                  <div class="d-none d-lg-block text-center mb-5">
+                    <div class="avatar avatar-xxl avatar-circle mb-3">
+                      <img class="avatar-img" src="assets/img/logo.jpg" alt="Image Description" />
+
+                    </div>
+
+                    <h4 class="card-title mb-0">محمد هاشمی</h4>
+                    <p class="card-text small">natalie@example.com</p>
+                  </div>
+                  <!-- End Avatar -->
+
+                  <!-- Nav -->
+                  <span class="text-cap">حساب</span>
+
+                  <!-- List -->
+                  <ul class="nav nav-sm nav-tabs nav-vertical mb-4">
+                    <li class="nav-item">
+                      <a class="nav-link" href="admin-edit-profile.html">
+                        <i class="bi-person-badge nav-icon"></i> تغییرات پروفایل
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End List -->
+
+                  <span class="text-cap">اخبار</span>
+
+                  <!-- List -->
+                  <ul class="nav nav-sm nav-tabs nav-vertical mb-4">
+                    <li class="nav-item">
+                      <a class="nav-link " href="admin-add-news.html">
+                        <i class="bi-newspaper nav-icon"></i> اضافه کردن خبر
+                      </a>
+                      <a class="nav-link " href="admin-list-news.html">
+                        <i class="bi-newspaper nav-icon"></i> لیست اخبار
+                      </a>
+                    </li>
+                  </ul>
+
+                  <span class="text-cap">محصول</span>
+
+                  <!-- List -->
+                  <ul class="nav nav-sm nav-tabs nav-vertical mb-4">
+                    <li class="nav-item">
+                      <a class="nav-link " href="admin-add-chart.html">
+                        <i class="bi-person nav-icon"></i> اضافه کردن محصول
+                      </a>
+                      <a class="nav-link " href="admin-list-chart.html">
+                        <i class="bi-person nav-icon"></i> لیست محصول
+                      </a>
+                    </li>
+                  </ul>
+
+                  <!-- End List -->
+
+                  <div class="d-lg-none">
+                    <div class="dropdown-divider"></div>
+
+                    <!-- List -->
+                    <ul class="nav nav-sm nav-tabs nav-vertical">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <i class="bi-box-arrow-right nav-icon"></i> خروج
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- End List -->
+                  </div>
+                  <!-- End Nav -->
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+          </div>
+          <!-- End Navbar -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-lg-9">
+          <!-- Card -->
+          <div class="card">
+            <!-- Header -->
+            <div class="card-header border-bottom">
+              <h5 class="card-header-title">لیست اخبار</h5>
+            </div>
+            <!-- End Header -->
+
+            <!-- Body -->
+            <div class="card-body">
+              <form class="row text-center">
+                <div class="col-12 row b-x-s my-1">
+                  <div class="col-md-9 col-12 py-2">خبر اول</div>
+                  <div class="col-md-3 col-12 py-2">
+                    <svg class="bg-success rounded-2"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20"
+                                                                        width="1.9rem"
+                                                                        height="1.9rem"
+
+
+                  >
+                    <g fill="none">
+                      <path
+                              d="M2.854 2.146a.5.5 0 1 0-.708.708l3.5 3.498a8.097 8.097 0 0 0-3.366 5.046a.5.5 0 1 0 .979.204a7.09 7.09 0 0 1 3.108-4.528L7.95 8.656a3.5 3.5 0 1 0 4.884 4.884l4.313 4.314a.5.5 0 0 0 .708-.708l-15-15z"
+                              fill="white"
+                      ></path>
+                      <path
+                              d="M10.124 8.003l3.363 3.363a3.5 3.5 0 0 0-3.363-3.363z"
+                              fill="white"
+                      ></path>
+                      <path
+                              d="M7.531 5.41l.803.803A6.632 6.632 0 0 1 10 6c3.206 0 6.057 2.327 6.74 5.602a.5.5 0 1 0 .98-.204C16.943 7.673 13.693 5 10 5c-.855 0-1.687.143-2.469.41z"
+                              fill="white"
+                      ></path>
+                    </g>
+                  </svg>
+                    <svg class="bg-danger rounded-2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="2rem"
+                            height="2rem"
+                    >
+                      <path
+                              fill="white"
+                              d="M5.73 18q-.69 0-1.152-.462t-.462-1.153V8H3.73q-.213 0-.356-.144t-.144-.357t.144-.356T3.73 7h3.115v-.115q0-.31.23-.54t.54-.23h1q.309 0 .539.23t.23.54V7H12.5q.213 0 .356.144t.144.357t-.144.356T12.5 8h-.385v8.385q0 .69-.462 1.153T10.5 18zm9.655-.5q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h2q.212 0 .356.144t.144.357t-.144.356t-.356.143zm0-4q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h4q.212 0 .356.144t.144.357t-.144.356t-.356.143zm0-4q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h5q.212 0 .356.144t.144.357t-.144.356t-.356.143zM5.115 8v8.385q0 .23.193.423T5.73 17h4.77q.23 0 .423-.192q.193-.193.193-.424V8z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="col-12 row b-x-s my-1">
+                  <div class="col-md-9 col-12 py-2">خبر دوم</div>
+                  <div class="col-md-3 col-12 py-2">
+                    <svg class="bg-success rounded-2"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20"
+                                                                        width="1.9rem"
+                                                                        height="1.9rem"
+
+
+                  >
+                    <g fill="none">
+                      <path
+                              d="M2.854 2.146a.5.5 0 1 0-.708.708l3.5 3.498a8.097 8.097 0 0 0-3.366 5.046a.5.5 0 1 0 .979.204a7.09 7.09 0 0 1 3.108-4.528L7.95 8.656a3.5 3.5 0 1 0 4.884 4.884l4.313 4.314a.5.5 0 0 0 .708-.708l-15-15z"
+                              fill="white"
+                      ></path>
+                      <path
+                              d="M10.124 8.003l3.363 3.363a3.5 3.5 0 0 0-3.363-3.363z"
+                              fill="white"
+                      ></path>
+                      <path
+                              d="M7.531 5.41l.803.803A6.632 6.632 0 0 1 10 6c3.206 0 6.057 2.327 6.74 5.602a.5.5 0 1 0 .98-.204C16.943 7.673 13.693 5 10 5c-.855 0-1.687.143-2.469.41z"
+                              fill="white"
+                      ></path>
+                    </g>
+                  </svg>
+                    <svg class="bg-danger rounded-2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="2rem"
+                            height="2rem"
+                    >
+                      <path
+                              fill="white"
+                              d="M5.73 18q-.69 0-1.152-.462t-.462-1.153V8H3.73q-.213 0-.356-.144t-.144-.357t.144-.356T3.73 7h3.115v-.115q0-.31.23-.54t.54-.23h1q.309 0 .539.23t.23.54V7H12.5q.213 0 .356.144t.144.357t-.144.356T12.5 8h-.385v8.385q0 .69-.462 1.153T10.5 18zm9.655-.5q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h2q.212 0 .356.144t.144.357t-.144.356t-.356.143zm0-4q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h4q.212 0 .356.144t.144.357t-.144.356t-.356.143zm0-4q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h5q.212 0 .356.144t.144.357t-.144.356t-.356.143zM5.115 8v8.385q0 .23.193.423T5.73 17h4.77q.23 0 .423-.192q.193-.193.193-.424V8z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="col-12 row b-x-s my-1">
+                  <div class="col-md-9 col-12 py-2">خبر سوم</div>
+                  <div class="col-md-3 col-12 py-2">
+                    <svg class="bg-success rounded-2"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20"
+                                                                        width="1.9rem"
+                                                                        height="1.9rem"
+
+
+                  >
+                    <g fill="none">
+                      <path
+                              d="M2.854 2.146a.5.5 0 1 0-.708.708l3.5 3.498a8.097 8.097 0 0 0-3.366 5.046a.5.5 0 1 0 .979.204a7.09 7.09 0 0 1 3.108-4.528L7.95 8.656a3.5 3.5 0 1 0 4.884 4.884l4.313 4.314a.5.5 0 0 0 .708-.708l-15-15z"
+                              fill="white"
+                      ></path>
+                      <path
+                              d="M10.124 8.003l3.363 3.363a3.5 3.5 0 0 0-3.363-3.363z"
+                              fill="white"
+                      ></path>
+                      <path
+                              d="M7.531 5.41l.803.803A6.632 6.632 0 0 1 10 6c3.206 0 6.057 2.327 6.74 5.602a.5.5 0 1 0 .98-.204C16.943 7.673 13.693 5 10 5c-.855 0-1.687.143-2.469.41z"
+                              fill="white"
+                      ></path>
+                    </g>
+                  </svg>
+                    <svg class="bg-danger rounded-2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="2rem"
+                            height="2rem"
+                    >
+                      <path
+                              fill="white"
+                              d="M5.73 18q-.69 0-1.152-.462t-.462-1.153V8H3.73q-.213 0-.356-.144t-.144-.357t.144-.356T3.73 7h3.115v-.115q0-.31.23-.54t.54-.23h1q.309 0 .539.23t.23.54V7H12.5q.213 0 .356.144t.144.357t-.144.356T12.5 8h-.385v8.385q0 .69-.462 1.153T10.5 18zm9.655-.5q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h2q.212 0 .356.144t.144.357t-.144.356t-.356.143zm0-4q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h4q.212 0 .356.144t.144.357t-.144.356t-.356.143zm0-4q-.213 0-.357-.144t-.143-.357t.143-.356t.357-.143h5q.212 0 .356.144t.144.357t-.144.356t-.356.143zM5.115 8v8.385q0 .23.193.423T5.73 17h4.77q.23 0 .423-.192q.193-.193.193-.424V8z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </form>
+              <!-- End Row -->
+
+            </div>
+            <!-- End Body -->
+          </div>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Content Section -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+
+
+  <!-- Go To -->
+  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden" data-hs-go-to-options='{
+       "offsetTop": 700,
+       "position": {
+         "init": {
+           "right": "2rem"
+         },
+         "show": {
+           "bottom": "2rem"
+         },
+         "hide": {
+           "bottom": "-2rem"
+         }
+       }
+     }'>
+    <i class="bi-chevron-up"></i>
+  </a>
+
+  <!-- Offcanvas Search -->
+  <div class="offcanvas offcanvas-top offcanvas-navbar-search bg-light" tabindex="-1" id="offcanvasNavbarSearch">
+    <div class="offcanvas-body">
+      <div class="container">
+        <div class="w-lg-75 mx-lg-auto">
+          <div class="d-flex justify-content-end mb-3">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="mb-7">
+            <!-- Form -->
+            <form>
+              <!-- Input Card -->
+              <div class="input-card">
+                <div class="input-card-form">
+                  <input type="text" class="form-control form-control-lg" placeholder="جستجو محصولات"
+                    aria-label="جستجو محصولات" />
+                </div>
+                <button type="button" class="btn btn-primary btn-lg">
+                  جستجو
+                </button>
+              </div>
+              <!-- End Input Card -->
+            </form>
+            <!-- End Form -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- JS Implementing Plugins -->
+  <script src="assets/js/vendor.min.js"></script>
+
+  <!-- JS Front -->
+  <script src="assets/js/theme.min.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function () {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader("#header").init();
+
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu(".js-mega-menu", {
+        desktop: {
+          position: "left",
+        },
+      });
+
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation(".js-animation-link");
+
+      // INITIALIZATION OF BOOTSTRAP VALIDATION
+      // =======================================================
+      HSBsValidation.init(".js-validate", {
+        onSubmit: (data) => {
+          data.event.preventDefault();
+          alert("Submited");
+        },
+      });
+
+      // INITIALIZATION OF BOOTSTRAP DROPDOWN
+      // =======================================================
+      HSBsDropdown.init();
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo(".js-go-to");
+
+      // INITIALIZATION OF INPUT MASK
+      // =======================================================
+      HSCore.components.HSMask.init(".js-input-mask");
+
+      // INITIALIZATION OF SELECT
+      // =======================================================
+      HSCore.components.HSTomSelect.init(".js-select", {
+        render: {
+          option: function (data, escape) {
+            return data.optionTemplate;
+          },
+          item: function (data, escape) {
+            return data.optionTemplate;
+          },
+        },
+      });
+    })();
+  </script>
+</body>
+
+</html>
