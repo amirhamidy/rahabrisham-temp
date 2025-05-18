@@ -166,44 +166,48 @@
             <!-- Header -->
             <div class="card-header border-bottom d-flex flex-wrap justify-content-between">
               <h6 class="card-header-title my-2 d-flex justify-content-between">
-                <a class="text-dark active-news" href="admin-add-news.html">
-                  اضافه کردن خبر جدید
+                <a class="text-dark" href="admin-add-chart.html">
+                  اضافه کردن محصول جدید
                 </a>
               </h6>
               |
               <h6 class="card-header-title my-2 d-flex justify-content-between">
-                <a class="text-dark" href="admin-add-news.england.html">
-                  اضافه کردن خبر جدید انگلیسی
+                <a class="text-dark" href="admin-add-chart.england.html">
+                  اضافه کردن محصول جدید انگلیسی
                 </a>
               </h6>
               |
               <h6 class="card-header-title my-2 d-flex justify-content-between">
-                <a class="text-dark" href="admin-add-news.chines.html">
-                  اضافه کردن خبر جدید چینی
+                <a class="text-dark " href="admin-add-chart.chines.html">
+                  اضافه کردن محصول جدید چینی
                 </a>
               </h6>
               |
               <h6 class="card-header-title my-2 d-flex justify-content-between">
-                <a class="text-dark" href="admin-add-news.arab.html">
-                  اضافه کردن خبر جدید عربی
+                <a class="text-dark active-news" href="admin-add-chart.arab.html">
+                  اضافه کردن محصول جدید عربی
                 </a>
               </h6>
             </div>
-            <!-- End Header -->
-
             <!-- Body -->
             <div class="card-body">
               <form class="row">
-                <div class="col-md-4 col-12 text-center d-flex flex-column">
-                  <h6> عنوان خبر جدید  </h6>
-                  <label>
+                <div class="col-md-4 col-12 text-center my-2">
+                  <h6>عنوان محصول جدید</h6>
+                  <label class="w-100 h-100">
                     <input class="form-control" type="text" placeholder="عنوان">
                   </label>
                 </div>
-                <div class="col-md-8 col-12 text-center">
-                  <h6>متن خبر جدید</h6>
+                <div class="col-md-4 col-12 text-center my-2">
+                  <h6>قیمت محصول جدید</h6>
                   <label class="w-100 h-100">
-                    <textarea class="form-control cs-tr"></textarea>
+                    <input placeholder="قیمت" type="text" class="form-control">
+                  </label>
+                </div>
+                <div class="col-md-4 col-12 text-center my-2">
+                  <h6>افزایش قیمت</h6>
+                  <label class="w-100 h-100">
+                    <input placeholder="دارد یا ندارد" type="text" class="form-control">
                   </label>
                 </div>
                 <div class="col-md-12 col-12 text-center mt-3">
@@ -216,12 +220,12 @@
                             height="1em"
                     >
                       <path class="text-light"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="1.5"
-                            d="m2.75 8.75l3.5 3.5l7-7.5"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="1.5"
+                              d="m2.75 8.75l3.5 3.5l7-7.5"
                       ></path>
                     </svg>
                   </button>

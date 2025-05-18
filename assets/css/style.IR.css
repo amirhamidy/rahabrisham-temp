@@ -120,11 +120,7 @@ body{
 body::-webkit-scrollbar{
     width: 0px;
 }
-svg{
-    fill: currentcolor;
-    width: 15px;
-    height: 15px;
-}
+
 img.svg{
     width: 15px;
     height: 15px;
@@ -807,6 +803,7 @@ a{
 .kioto_tm_biography .text{
     margin-top: 50px;
     margin-bottom: 30px;
+    direction: rtl;
 }
 .kioto_tm_biography .personal_details{
     width: 50%;
@@ -914,6 +911,7 @@ a{
 .kioto_tm_features .list{
     width: 100%;
     margin-top: 50px;
+    direction: rtl;
 }
 .kioto_tm_features .left{
     width: 100%;
@@ -1204,15 +1202,17 @@ a{
 }
 .kioto_tm_service .services_list > ul > li{
     width: 33.3333%;
-    padding-left: 40px;
+    padding-left: 13px;
     margin-bottom: 40px;
 }
 .kioto_tm_service .services_list .list_inner{
     width: 100%;
     height: 100%;
     position: relative;
-    padding: 45px 50px 42px 50px;
+    padding: 15px 8px;
     border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    text-align: -webkit-center;
 }
 .kioto_tm_service .services_list .list_inner .svg{
     width: 40px;
@@ -1223,6 +1223,7 @@ a{
 .kioto_tm_service .services_list .title{
     font-size: 17px;
     text-align: center !important;
+    margin-top: 10px;
 }
 .kioto_tm_service .services_list .list{
     width: 100%;
@@ -1231,14 +1232,15 @@ a{
     padding-top: 25px;
 }
 .kioto_tm_service .services_list .list li{
-    width: 100%;
     margin-bottom: 5px;
     position: relative;
-    padding-left: 18px;
     list-style: none;
+    font-size: 14px;
+
 }
 .kioto_tm_service .services_list .list li:last-child{
-    margin-bottom: 0px;
+    width: 75%;
+    margin-bottom: 10px;
 }
 .kioto_tm_service .services_list .list li:before{
     position: absolute;
@@ -1256,6 +1258,7 @@ a{
 .mj-z{
     white-space: normal !important;
     text-align: center;
+    font-size: 14px;
 }
     /*---------------------------------------------------*/
 /*	08) KIOTO PORTFOLIO
@@ -1495,6 +1498,10 @@ a{
     display: flex;
     flex-wrap: wrap;
     margin-left: -40px;
+    align-items: center;
+}
+.cs-fs{
+    font-size: 13px;
 }
 .kioto_tm_contact .info_list > ul > li{
     width: 25%;
@@ -1503,10 +1510,9 @@ a{
 }
 .kioto_tm_contact .info_list > ul > li .list_inner{
     width: 100%;
-    height: 100%;
     position: relative;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 20px;
+    padding: 20px  20px;
     text-align: center;
 }
 .kioto_tm_contact .info_list > ul > li span{
@@ -2099,5 +2105,52 @@ input{
 .py-5{
     align-items: center !important;
 }
+
+.mt-5{
+    margin: 20px 0;
+    position: relative !important;
+}
+
+.d-inline{
+    display: inline;
+}
+.d-flex{
+    display: flex;
+}
+.js-c-center{
+    justify-content: center;
+    align-items: center !important;
+
+}
+.mx-cs{
+    margin: 0 10px;
+}
+
+.pointer{
+    cursor: pointer !important;
+}
+
+
+.w-50{
+    width: 50% !important;
+}
+
+.cs-btn{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 2px;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
 
 

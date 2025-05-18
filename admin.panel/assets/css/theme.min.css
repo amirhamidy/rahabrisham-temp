@@ -24790,3 +24790,14 @@ a:hover .text-inherit {
 }
 
 
+
+.active-news{
+
+  color: grey !important;
+
+}
+
+active-news :hover{
+  color: grey !important;
+}
+

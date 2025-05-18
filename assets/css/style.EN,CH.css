@@ -58,11 +58,7 @@ body{
 body::-webkit-scrollbar{
     width: 0px;
 }
-svg{
-    fill: currentcolor;
-    width: 15px;
-    height: 15px;
-}
+
 img.svg{
     width: 15px;
     height: 15px;
@@ -1928,12 +1924,59 @@ a{
     right: -10%;
     color: rgba(103, 83, 76, 0.8);
 }
+
+
+
 .dot-icon{
     width: 0.7em !important;
     margin: -3px 3px;
 }
 
-.my-5{
-    margin: 2em 0;
+.py-5{
+    align-items: center !important;
+}
+
+.mt-5{
+    margin: 20px 0;
+    position: relative !important;
+}
+
+.d-inline{
+    display: inline;
+}
+.d-flex{
+    display: flex;
+}
+.js-c-center{
+    justify-content: center;
+    align-items: center !important;
+
+}
+.mx-cs{
+    margin: 0 10px;
+}
+
+.pointer{
+    cursor: pointer !important;
+}
+
+
+.w-50{
+    width: 50% !important;
+}
+
+.cs-btn{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 2px;
+    background-color: lightgray;
+}
+
+.my-cs{
+    padding: 10px 0;
+    align-items: center !important;
 }
 
