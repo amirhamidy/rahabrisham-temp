@@ -1,28 +1,5 @@
 @charset "utf-8";
 
-/*
-/*	Copyright (c) 2024 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-
-01)	KIOTO KIOTO BASE
-02) KIOTO MOBILE MENU
-03) KIOTO LEFTPART
-04) KIOTO RIGHTPART
-05) KIOTO HOME
-06) KIOTO ABOUT
-07) KIOTO SERVICES
-08) KIOTO PORTFOLIO
-09) KIOTO NEWS
-10) KIOTO CONTACT
-11) KIOTO MAGIC CURSOR
-12) KIOTO MEDIA QUERIES (FOR SMALL DEVICES)
-
-
-/*---------------------------------------------------*/
-/*	01) KIOTO BASE
-/*---------------------------------------------------*/
 
 a{
     text-decoration: none;
@@ -46,12 +23,12 @@ html {
     margin: 0px
 }
 body{
-    font-family: var(--bff);
+    font-family: Arial, Helvetica, Verdana, serif;
+    font-weight: normal !important;
     font-size: 15px;
     line-height: 1.8;
     letter-spacing: 0px;
     word-wrap: break-word;
-    font-weight: 400;
     background-color: #f9f9f9;
     color: var(--bc);
 }
@@ -1108,7 +1085,7 @@ a{
 }
 .kioto_tm_service .services_list > ul > li{
     width: 33.3333%;
-    padding-left: 40px;
+    padding-left: 13px;
     margin-bottom: 40px;
 }
 .kioto_tm_service .services_list .list_inner{
@@ -1406,7 +1383,7 @@ a{
 }
 .kioto_tm_contact .info_list{
     width: 100%;
-    margin-top: 60px;
+    margin-top: 0;
 }
 .kioto_tm_contact .info_list > ul{
     display: flex;
@@ -1420,22 +1397,22 @@ a{
 }
 .kioto_tm_contact .info_list > ul > li .list_inner{
     width: 100%;
-    height: 100%;
+    height: 100px;
     position: relative;
     border: 1px solid rgba(0,0,0,.1);
     padding: 20px;
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-.kioto_tm_contact .info_list > ul > li span{
-    display: block;
-}
+.kioto_tm_contact .info_list > ul > li span{}
 .kioto_tm_contact .info_list > ul > li{
     display: block;
 }
 .kioto_tm_contact .info_list .icon{
     width: 25px;
     height: 25px;
-    margin-bottom: 5px;
 }
 .kioto_tm_social ul li{
     display: inline-block;
@@ -1978,5 +1955,10 @@ a{
 .my-cs{
     padding: 10px 0;
     align-items: center !important;
+}
+
+
+.f-cs{
+    font-family: var(--cs-font-family-peyda);
 }
 

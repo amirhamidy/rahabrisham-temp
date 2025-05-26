@@ -1001,8 +1001,12 @@ a{
 .kioto_tm_counter .list ul li .list_inner{
     width: 100%;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 20px;
+    padding: 18px;
     text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .kioto_tm_counter .list ul h3{
     margin-bottom: 2px;
@@ -1104,6 +1108,7 @@ a{
 .kioto_tm_members .list .job{
     display: inline-block;
     margin-bottom: 12px;
+    white-space: nowrap;
 }
 .kioto_tm_testimonials{
     width: 100%;
@@ -1491,13 +1496,12 @@ a{
 }
 .kioto_tm_contact .info_list{
     width: 100%;
-    margin-top: 60px;
+    margin-top: 0;
     text-align: center;
 }
 .kioto_tm_contact .info_list > ul{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -40px;
     align-items: center;
 }
 .cs-fs{
@@ -1510,10 +1514,15 @@ a{
 }
 .kioto_tm_contact .info_list > ul > li .list_inner{
     width: 100%;
+    height: 100px;
     position: relative;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 20px  20px;
+    padding: 20px ;
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .kioto_tm_contact .info_list > ul > li span{
     display: block;
@@ -2145,7 +2154,12 @@ input{
     background-color: lightgray;
 }
 
-
+.dir-r{
+    direction: rtl;
+}
+.dir-l{
+    direction: ltr;
+}
 
 
 
