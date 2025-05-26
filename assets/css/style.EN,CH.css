@@ -1092,8 +1092,9 @@ a{
     width: 100%;
     height: 100%;
     position: relative;
-    padding: 45px 50px 42px 50px;
+    padding: 25px 5px 25px 5px;
     border: 1px solid rgba(0,0,0,.1);
+    text-align: -webkit-center;
 }
 .kioto_tm_service .services_list .list_inner .svg{
     width: 40px;
@@ -1102,7 +1103,7 @@ a{
     margin-bottom: 17px;
 }
 .kioto_tm_service .services_list .title{
-    font-size: 18px;
+    font-size: 16px;
 }
 .kioto_tm_service .services_list .list{
     width: 100%;
@@ -1119,7 +1120,6 @@ a{
     width: 100%;
     margin-bottom: 5px;
     position: relative;
-    padding-left: 18px;
 }
 .kioto_tm_service .services_list .list li:last-child{
     margin-bottom: 0px;
